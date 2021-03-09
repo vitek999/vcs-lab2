@@ -1,0 +1,4 @@
+initMethod->name = "<init>";
+	initMethod->nameNumber = clazz->pushConstant(Constant::Utf8(initMethod->name));
+	initMethod->descriptorNumber = clazz->pushConstant(Constant::Utf8("()V"));
+	initMethod->local_variables.push_back("this");initMethod->body = 0;
